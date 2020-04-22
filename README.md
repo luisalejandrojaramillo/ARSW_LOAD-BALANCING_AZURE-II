@@ -72,4 +72,5 @@ Contiene todos sus objetos de datos de Azure Storage: blobs, archivos, colas, ta
 * Informe
 
  * Funcionamiento:
+ 
 ![](images/funcionamiento.png)
