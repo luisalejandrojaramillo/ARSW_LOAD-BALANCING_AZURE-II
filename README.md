@@ -67,7 +67,11 @@ Contiene todos sus objetos de datos de Azure Storage: blobs, archivos, colas, ta
 
 * ¿Por qué la memorización falla o no funciona de forma correcta?
 
+Por que al ejecutar la aplicación se excede el límite de recusión, esto sucede cuando operamos un numero muy grande como lo es 1000000. 
+
 * ¿Cómo funciona el sistema de facturación de las Function App?
+
+El sistema de facturación de las Function App estan dadas por la cantidad de ejecuciones, el runtime y la memoria utilizada para la aplicación.
 
 * Informe
 
