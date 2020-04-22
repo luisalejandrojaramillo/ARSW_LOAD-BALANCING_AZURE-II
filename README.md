@@ -42,10 +42,29 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 **Preguntas**
 
 * ¿Qué es un Azure Function?
+
+Azure Functions es un servicio de cómputo sin servidor que le permite ejecutar código activado por eventos sin tener que aprovisionar o administrar explícitamente la infraestructura.
+
 * ¿Qué es serverless?
+
+Serverless es un modelo de ejecución en el que el proveedor en la nube es responsable de ejecutar un fragmento de código mediante la asignación dinámica de los recursos. Y cobrando solo por la cantidad de recursos utilizados para ejecutar el código. 
+
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
+
+Todas las funciones en una aplicación de funciones deben compartir el mismo idioma. Cuando crea una aplicación de función, debe elegir una pila de tiempo de ejecución para la aplicación. La pila de tiempo de ejecución se especifica por el FUNCTIONS_WORKER_RUNTIME valor en la configuración de la aplicación. Este requisito se agregó para mejorar la huella y el tiempo de inicio. 
+
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
+
+Contiene todos sus objetos de datos de Azure Storage: blobs, archivos, colas, tablas y discos. La cuenta de almacenamiento proporciona un espacio de nombres único para sus datos de Azure Storage al que se puede acceder desde cualquier lugar del mundo a través de HTTP o HTTPS.
+
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
-* ¿Por qué la memoization falla o no funciona de forma correcta?
+
+**Plan de consumo**: Azure proporciona todos los recursos de cálculo necesarios. No tiene que preocuparse de la administración de recursos y solo paga por el tiempo que haya empleado en la ejecución del código.
+ 
+**Plan Premium**: especifique un número de instancias activadas previamente que siempre están en línea y preparadas para responder de inmediato. Cuando se ejecuta la función, Azure proporciona todos los recursos informáticos adicionales que sean necesarios. Se paga tanto por las instancias activadas previamente que se ejecutan de forma continua como por todas las instancias adicionales que se usen cuando Azure reduce y escala horizontalmente la aplicación.
+
+**Plan de App Service**: se ejecutan las funciones igual que aplicaciones web. Si ya usa App Service para las otras aplicaciones, las funciones pueden ejecutarse en el mismo plan sin costo adicional.
+
+* ¿Por qué la memorización falla o no funciona de forma correcta?
 * ¿Cómo funciona el sistema de facturación de las Function App?
 * Informe
