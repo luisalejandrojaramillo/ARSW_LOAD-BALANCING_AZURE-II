@@ -66,5 +66,10 @@ Contiene todos sus objetos de datos de Azure Storage: blobs, archivos, colas, ta
 **Plan de App Service**: se ejecutan las funciones igual que aplicaciones web. Si ya usa App Service para las otras aplicaciones, las funciones pueden ejecutarse en el mismo plan sin costo adicional.
 
 * ¿Por qué la memorización falla o no funciona de forma correcta?
+
 * ¿Cómo funciona el sistema de facturación de las Function App?
+
 * Informe
+
+ * Funcionamiento:
+![](images/funcionamiento.png)
