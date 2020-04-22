@@ -79,3 +79,16 @@ El sistema de facturación de las Function App estan dadas por la cantidad de ej
 
 ## Informe
 
+* 10 peticiones con Fibonacci recursivo.
+
+![](images/iteracion.png)
+![](images/iteracion2.png)
+
+* Como resultado se obtuvo un promedio en tiempo de 1m 58.9 s en responder cada petición y un tiempo total de 19m 49s.
+
+![](images/resultado.png)
+
+
+
+
+
