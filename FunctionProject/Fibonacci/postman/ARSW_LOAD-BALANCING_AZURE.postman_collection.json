@@ -6,7 +6,7 @@
 	},
 	"item": [
 			{
-				"name": "fibonacci",
+				"name": "Number 1000000",
 				"request": {
 					"method": "POST",
 					"header": [],
@@ -23,20 +23,13 @@
 						"raw": "https://functionprojectfibonacci1.azurewebsites.net/api/Fibonacci",
 						"protocol": "https",
 						"host": [
-							"functionprojectfibonnacci1",
+							"functionprojectfibonacci1",
 							"azurewebsites",
 							"net"
 						],
 						"path": [
 							"api",
 							"Fibonacci"
-						],
-						"query": [
-							{
-								"key": "app",
-								"value": "3",
-								"disabled": true
-							}
 						]
 					}
 				},
